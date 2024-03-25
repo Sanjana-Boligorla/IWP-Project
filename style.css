@@ -51,7 +51,7 @@ i{
    transition: 0.5s;
 }
  .topnav{
-    background-color: #a439ca;
+    background-color: #4717F6; background: linear-gradient(to right, #A239CA, #4717F6);
     width: 100%;
     display: flex;
     padding: 0px;
