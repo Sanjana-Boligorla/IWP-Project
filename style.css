@@ -70,7 +70,8 @@ i{
     padding: 0px;
     position: sticky;
     background-color: #4717F6; background: linear-gradient(to right, #A239CA, #4717F6);
-    
+    border-radius: 15px;
+    margin: 0 auto;
  }
  a{
     color: #66fcf1;
@@ -134,6 +135,8 @@ i{
   }
   #carouselExample{
    position: relative;
+   margin-top: 2%;
+   margin-bottom: 2%;
   }
   .services{
    color: #E7DFDD;
@@ -142,7 +145,7 @@ i{
    flex-wrap: wrap;
   }
  .service{
-   color: #4717F6;
+   color: #E7DFDD;
  }
  .servimg{
    height: 120px;
@@ -155,7 +158,7 @@ i{
    height: 250px;
  }
  .foot1{
-   color: #a439ca;
+   color: #E7DFDD;
  }
  .footlinks{
    text-decoration:none ;
@@ -185,4 +188,68 @@ i{
 }
 .mov{
    color: #E7DFDD;
+}
+
+
+/*Home page for Recruiter side*/
+
+.container {
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.box {
+   max-width: 600px;
+   padding: 20px;
+   background: white;
+   margin: 0 auto;
+   margin-top: 50px;
+   box-shadow: 4px 3px 5px wheat;
+   border-radius: 10px;
+}
+
+.small {
+   font-size: 20px;
+}
+.form_container{
+   margin: 2d0px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+   gap: 20px;
+}
+.form_control{
+   display: flex;
+   flex-direction: column;
+}
+label{
+   margin-bottom: 5px;
+   font-size: 15px;
+}
+input, select, textarea{
+   padding: 6px 10px;
+   border: 1px solid black;
+   border-radius: 4px;
+   font-size: 15px;
+}
+
+.button_container{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 20px;
+}
+
+.textarea_control{
+   grid-column: 1 / span 2;
+}
+.textarea_control textarea{
+   width: 100%;
+}
+@media(max-width: 460px){
+   .textarea_control{
+   grid-column: 1 / span 1;
+} 
+}
+
+.bgd{
+   background: url('projects_background.jpg');
 }
