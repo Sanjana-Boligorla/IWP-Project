@@ -12,6 +12,16 @@ img{
     margin-top: auto;
     margin-bottom: auto;
 }
+.sig{
+   width:120px ;
+   display: flex;
+   text-align: center;
+   margin: 0;
+   background-color: #4717F6;
+   text-decoration: none;
+   border-color: transparent;
+   border-radius: 5px;
+}
 h1{
     color: #a439ca;
 }
@@ -23,15 +33,15 @@ i{
     font-size: x-large;
     border: #66fcf1;
 }
- button.signin{
+ a.signin{
     margin-left: auto;
     height: max-content;
     margin-bottom: auto;
     margin-top: auto;
     margin-right: 25px;
     color: #E7DFDD;
-    background-color: black;
-    border-radius: 40px;
+    background-color: transparent;
+    
     display: flex;
     border: 0;
  }
@@ -39,11 +49,14 @@ i{
     font-size: large;
     margin-top: auto;
     margin-bottom: auto;
- }
- .signin:hover{
-    background-color: #4717F6;
     color: #E7DFDD;
-    padding: 5px;
+    border: transparent;
+    border-radius: 2-px;
+ }
+ a.signin:hover{
+    
+    color: #E7DFDD;
+    
     transition: 0.5s;
  }
  .signin:hover i{
