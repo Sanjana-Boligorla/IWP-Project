@@ -51,11 +51,12 @@ i{
    transition: 0.5s;
 }
  .topnav{
-    background-color: #4717F6; background: linear-gradient(to right, #A239CA, #4717F6);
+    background-color: #7f39ca;
     width: 100%;
     display: flex;
     padding: 0px;
     position: sticky;
+    background-color: #4717F6; background: linear-gradient(to right, #A239CA, #4717F6);
     
  }
  a{
