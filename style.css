@@ -12,6 +12,9 @@ img{
     margin-top: auto;
     margin-bottom: auto;
 }
+.foot{
+   background-color: #E7DFDD;
+ }
 .sig{
    width:120px ;
    display: flex;
