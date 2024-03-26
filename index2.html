@@ -13,20 +13,19 @@
 </head>
 <body class="bg-black">
     <div class="header1">
-        <header class="header">
-            <img src="logo1.jpg" alt="logo" height="70px" width="80px" />
-            <h1 class="title">Spark Tech Hub</h1>
-            <a class="signin " href="login.html" style="text-decoration: none;"><button class="sig" style="text-decoration: none;"><h2 class="sign " style="margin-left: 6px; ">Sign In</h2><i class="fa-solid fa-user ic mx-auto" ></i></button></a>
-        </header>
-        <div class="topnav position-static">
-            <a class="links">Home</a>
-            <a class="links">Jobs</a>
-            <a class="links">Projects</a>
-            <a class="links">About</a>
-            <a class="links">Contact Us</a>
-            <input class="search" type="text" placeholder="Search startups, jobs..">
-        </div>
-      </div>
+      <header class="header">
+        <img src="logo1.jpg" alt="logo" height="60px" width="80px" />
+        <h1 class="title">Spark Tech Hub</h1>
+        <a class="signin " href="login.html" style="text-decoration: none;"><button class="sig" style="text-decoration: none;"><h2 class="sign " style="margin-left: 6px; ">Sign In</h2><i class="fa-solid fa-user ic mx-auto" ></i></button></a>
+    </header>
+    <div class="topnav position-static">
+      <a class="links" href="index2.html">Home</a>
+      <a class="links" href="jobs_posted.html">Jobs Posted</a>  
+      <a class="links" href="about2.html">About</a>
+      <a class="links" href="contact2.html">Contact Us</a>
+        <input class="search" type="text" placeholder="Search startups, jobs..">
+    </div>
+  </div>
       <div id="carouselExample" class="carousel slide bg-black" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -157,13 +156,13 @@
                         <input type="radio" id="unpaid" name="employment" value="unpaid" onclick="hideSalaryInput()">
                         <div id="salaryInput" style="display:none;">
                           <label for="salary">Salary:</label>
-                          <input type="number" id="salary" name="salary">
+                          <input type="number" id="salary" name="salary" placeholder="Enter Salary">
                         </div>
 
                     
                   </div>
                   <div class="button_container">
-                      <button type="submit">Post</button>
+                      <a class="signin " href="login.html" style="text-decoration: none;"><button type="submit" class="sig" style="text-decoration: none;"><h2 class="sign " style="margin-left: 6px; ">Post</h2></button></a>
                   </div>
               </form>
           </div>
@@ -262,3 +261,4 @@
         </script>
 </body>
 </html>
+
